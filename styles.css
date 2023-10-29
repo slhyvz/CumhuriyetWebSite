@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/images/bg1.png);
+
+}
+
+.navbar{
+    background-image: url("./images/Copy.png");
+    text-align: center;
+    justify-content: center;
+    height: 200px;
+}
+
+
+
+.navbar ul li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+}
+
+.navbar ul li a{
+    border-radius: 45px;
+    font-size: 21px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar ul li a:hover{
+    border-left: 4px solid rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.active{
+    border-left: 4px solid rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+}
+
+
+.mySlides {
+    display:none;
+    margin: 25px;
+}
+
+.bayrak{
+    width: 200px;
+    height: 400px;
+}
+
+.atatürk{
+    width: 200px;
+    height: 400px;
+}
+
+.card{
+    border-radius: 25px;
+    background-color: transparent;
+}
+
+.kronology{
+    text-align: center;
+}
+
+.kronology h1{
+    color:brown;
+    letter-spacing: 12px;
+    font-size: 35px;
+}
+
+.dvdr{
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 1s ease-in-out;
+}
+
+.dvdr img{
+    border-radius: 20px;
+}
+.dvdr:hover{
+    opacity: 1;
+}
+
